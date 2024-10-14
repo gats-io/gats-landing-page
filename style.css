@@ -1,0 +1,57 @@
+.outfit-main {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.sixtyfour-convergence-gatsio-main {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 9,
+    "SCAN" 0,
+    "XELA" 65,
+    "YELA" -54;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background: rgb(36,10,0);
+    background: linear-gradient(180deg, rgba(36,10,0,1) 0%, rgba(164,24,6,1) 85%, rgba(221,111,0,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+    top: 30vh;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10vh;
+}
+.chat {
+    display:flex;
+    position: absolute;
+    height: 10vh;
+    width: 50vw;
+    top:50vh;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+    border: 0px solid black;
+    border-radius: 30px;
+    background-color: rgba(164,24,6,1);
+    cursor:pointer;
+}
